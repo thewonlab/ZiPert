@@ -12,6 +12,7 @@ dependencies = [
 	"numpy",
 	"pandas",
 	"torch",
+	"scipy",
 ]
 
 [tool.setuptools]
@@ -22,3 +23,4 @@ where = ["src"]
 
 [project.optional-dependencies]
 torch = ["torch"]
+cellranger = ["scanpy>=1.9"]
