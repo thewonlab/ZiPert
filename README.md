@@ -268,3 +268,9 @@ pytest tests/test_smoke.py
 
 Large local result artifacts are intentionally not tracked in git. See
 `.gitignore` for excluded cache and experiment-output paths.
+
+## Explorations
+
+Read the [ZiPert exploration notes](docs/explorations/README.md) for draft case
+studies, sparse-data comparisons, optimization observations, and a six-part
+research roadmap. These are evolving research notes, not changes to package defaults.
